@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fato — Portfolio</title>
+<meta name="description" content="Personal portfolio and resume of Fato.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo">Fato</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="top" class="hero">
+      <div class="container">
+        <!-- EDIT ME: replace with your name and a one-line title -->
+        <h1>Hi, I'm Fato.</h1>
+        <p class="tagline">[Your role / title — e.g. "Software Developer" or "Data Analyst"]</p>
+        <p class="hero-sub">Based in Germany · Learning by building · Trying to leave things better than I found them.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">See my work</a>
+          <a href="#contact" class="btn btn-secondary">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <!-- EDIT ME: 2-4 sentences about you -->
+        <p>
+          [Write a short bio here. For example: I'm a developer based in Germany who enjoys
+          learning new things and building tools that help people and organizations do good work.
+          I care about making technology practical, useful, and a little more human.]
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="card-grid">
+
+          <article class="card">
+            <h3>FearsAndHopes</h3>
+            <p>[Add a short description of this project — what it does and why you built it.]</p>
+            <a href="https://github.com/soyfatointhewelt/FearsAndHopes" target="_blank" rel="noopener">View on GitHub →</a>
+          </article>
+
+          <article class="card">
+            <h3>YourScalingPartner2026</h3>
+            <p>A domain-specific GPT tool that supports scaling decisions in mission-driven organizations with context-aware recommendations, risk insights, and structured guidance.</p>
+            <a href="https://github.com/soyfatointhewelt/YourScalingPartner2026" target="_blank" rel="noopener">View on GitHub →</a>
+          </article>
+
+          <article class="card">
+            <h3>moodle-forum-import</h3>
+            <p>Scripts to bulk-create Moodle student accounts and auto-import forum discussions from a shared dataset.</p>
+            <a href="https://github.com/soyfatointhewelt/moodle-forum-import" target="_blank" rel="noopener">View on GitHub →</a>
+          </article>
+
+          <!-- EDIT ME: add more <article class="card"> blocks for more projects, or remove ones you don't want shown -->
+
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <!-- EDIT ME: replace with your actual skills -->
+        <ul class="tag-list">
+          <li>Python</li>
+          <li>PHP</li>
+          <li>[Skill]</li>
+          <li>[Skill]</li>
+          <li>[Skill]</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Feel free to reach out — I'm happy to connect.</p>
+        <ul class="contact-list">
+          <!-- EDIT ME: fill in your real links -->
+          <li><a href="mailto:you@example.com">you@example.com</a></li>
+          <li><a href="https://github.com/soyfatointhewelt" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="#" target="_blank" rel="noopener">LinkedIn [add your URL]</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Fato. Built with GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
