@@ -3,115 +3,113 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fato — Portfolio</title>
-<meta name="description" content="Personal portfolio and resume of Fato.">
+<title>Fatima Sánchez — Posts</title>
+<meta name="description" content="Posts by Fatima Sánchez.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header class="site-header">
     <div class="container header-inner">
-      <a href="#top" class="logo">Fato</a>
+      <a href="index.html" class="logo">Fatima Sánchez</a>
       <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html">Posts</a>
+        <a href="about.html">About</a>
+        <a href="podcast.html">Podcast</a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <div class="page-layout container">
 
-    <section id="top" class="hero">
-      <div class="container hero-inner">
-        <img src="FatimaSanchezGithub.JPG" alt="Fatima Sanchez" class="avatar">
-        <div class="hero-text">
-          <!-- EDIT ME: replace with your name and a one-line title -->
-          <h1>Hi, I'm Fato.</h1>
-          <p class="tagline">[Your role / title — e.g. "Software Developer" or "Data Analyst"]</p>
-          <p class="hero-sub">Based in Germany · Learning by building · Trying to leave things better than I found them.</p>
-          <div class="hero-actions">
-            <a href="#projects" class="btn btn-primary">See my work</a>
-            <a href="#contact" class="btn btn-secondary">Get in touch</a>
-          </div>
-        </div>
+    <main class="posts-main">
+      <h1>Posts</h1>
+
+      <div class="posts-list">
+
+        <article class="post-item">
+          <a href="posts/post-scaling-gpt.html">
+            <h2>Building a Domain-Specific GPT to Support Scaling Decisions</h2>
+          </a>
+          <a href="posts/post-scaling-gpt.html" class="post-banner post-banner-blue" aria-label="Read: Building a Domain-Specific GPT to Support Scaling Decisions"></a>
+          <p class="post-date">Sep 12, 2026</p>
+          <!-- EDIT ME: replace with your real excerpt -->
+          <p class="post-excerpt">
+            Building YourScalingPartner2026 taught me more about structuring prompts and
+            context than any tutorial could. Here's what I learned turning a GPT into a
+            genuinely useful tool for mission-driven organizations.
+          </p>
+          <a href="posts/post-scaling-gpt.html" class="read-more">Read More »</a>
+        </article>
+
+        <article class="post-item">
+          <a href="posts/post-moodle-automation.html">
+            <h2>What Breaks When You Bulk-Import a Forum into Moodle</h2>
+          </a>
+          <a href="posts/post-moodle-automation.html" class="post-banner post-banner-teal" aria-label="Read: What Breaks When You Bulk-Import a Forum into Moodle"></a>
+          <p class="post-date">Aug 20, 2026</p>
+          <!-- EDIT ME: replace with your real excerpt -->
+          <p class="post-excerpt">
+            Scripts to bulk-create student accounts and auto-import a real forum discussion
+            sound simple — until you hit encoding issues, duplicate accounts, and a dataset
+            that doesn't quite match the schema. Here's what actually happened.
+          </p>
+          <a href="posts/post-moodle-automation.html" class="read-more">Read More »</a>
+        </article>
+
+        <article class="post-item">
+          <a href="posts/post-board-games.html">
+            <h2>What Board Games Taught Me About Debugging</h2>
+          </a>
+          <a href="posts/post-board-games.html" class="post-banner post-banner-warm" aria-label="Read: What Board Games Taught Me About Debugging"></a>
+          <p class="post-date">Jul 05, 2026</p>
+          <!-- EDIT ME: replace with your real excerpt -->
+          <p class="post-excerpt">
+            Debugging code and playing board games have more in common than you'd think —
+            both reward patience, strategy, and accepting that sometimes you just lose and
+            try again next turn.
+          </p>
+          <a href="posts/post-board-games.html" class="read-more">Read More »</a>
+        </article>
+
+        <!-- EDIT ME: copy one <article class="post-item"> block per new post, and create a matching page under posts/ -->
+
       </div>
-    </section>
+    </main>
 
-    <section id="about" class="section">
-      <div class="container">
-        <h2>About</h2>
-        <!-- EDIT ME: 2-4 sentences about you -->
-        <p>
-          [Write a short bio here. For example: I'm a developer based in Germany who enjoys
-          learning new things and building tools that help people and organizations do good work.
-          I care about making technology practical, useful, and a little more human.]
-        </p>
+    <aside class="sidebar">
+      <img src="FatimaSanchezGithub.JPG" alt="Fatima Sánchez" class="sidebar-avatar">
+      <h2 class="sidebar-name">Fatima Sánchez</h2>
+      <!-- EDIT ME: your welcome line -->
+      <p class="sidebar-welcome">Welcome to my site! I hope you find something interesting here.</p>
+
+      <div class="sidebar-buttons">
+        <!-- EDIT ME: fill in your real links -->
+        <a href="mailto:soyfatointhewelt@gmail.com" class="sidebar-btn">Email</a>
+        <a href="https://github.com/soyfatointhewelt" target="_blank" rel="noopener" class="sidebar-btn">GitHub</a>
+        <a href="https://www.linkedin.com/in/f%C3%A1tima-s%C3%A1nchez-a37856a4/" target="_blank" rel="noopener" class="sidebar-btn">LinkedIn</a>
+        <a href="CV_Fatima_Sanchez_EN.pdf" target="_blank" rel="noopener" class="sidebar-btn">CV</a>
+        <a href="podcast.html" class="sidebar-btn">Podcast</a>
       </div>
-    </section>
 
-    <section id="projects" class="section section-alt">
-      <div class="container">
-        <h2>Projects</h2>
-        <div class="card-grid">
+      <a href="about.html" class="sidebar-about-link">About me →</a>
 
-          <article class="card">
-            <h3>FearsAndHopes</h3>
-            <p>[Add a short description of this project — what it does and why you built it.]</p>
-            <a href="https://github.com/soyfatointhewelt/FearsAndHopes" target="_blank" rel="noopener">View on GitHub →</a>
-          </article>
+      <hr class="sidebar-divider">
 
-          <article class="card">
-            <h3>YourScalingPartner2026</h3>
-            <p>A domain-specific GPT tool that supports scaling decisions in mission-driven organizations with context-aware recommendations, risk insights, and structured guidance.</p>
-            <a href="https://github.com/soyfatointhewelt/YourScalingPartner2026" target="_blank" rel="noopener">View on GitHub →</a>
-          </article>
+      <h3 class="sidebar-heading">Newest Posts</h3>
+      <ul class="newest-posts">
+        <li><a href="posts/post-scaling-gpt.html">Building a Domain-Specific GPT to Support Scaling Decisions</a></li>
+        <li><a href="posts/post-moodle-automation.html">What Breaks When You Bulk-Import a Forum into Moodle</a></li>
+        <li><a href="posts/post-board-games.html">What Board Games Taught Me About Debugging</a></li>
+        <!-- EDIT ME: add a line here each time you publish a new post -->
+      </ul>
+    </aside>
 
-          <article class="card">
-            <h3>moodle-forum-import</h3>
-            <p>Scripts to bulk-create Moodle student accounts and auto-import forum discussions from a shared dataset.</p>
-            <a href="https://github.com/soyfatointhewelt/moodle-forum-import" target="_blank" rel="noopener">View on GitHub →</a>
-          </article>
-
-          <!-- EDIT ME: add more <article class="card"> blocks for more projects, or remove ones you don't want shown -->
-
-        </div>
-      </div>
-    </section>
-
-    <section id="skills" class="section">
-      <div class="container">
-        <h2>Skills</h2>
-        <!-- EDIT ME: replace with your actual skills -->
-        <ul class="tag-list">
-          <li>Python</li>
-          <li>PHP</li>
-          <li>[Skill]</li>
-          <li>[Skill]</li>
-          <li>[Skill]</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="contact" class="section section-alt">
-      <div class="container">
-        <h2>Contact</h2>
-        <p>Feel free to reach out — I'm happy to connect.</p>
-        <ul class="contact-list">
-          <!-- EDIT ME: fill in your real links -->
-          <li><a href="mailto:you@example.com">you@example.com</a></li>
-          <li><a href="https://github.com/soyfatointhewelt" target="_blank" rel="noopener">GitHub</a></li>
-          <li><a href="#" target="_blank" rel="noopener">LinkedIn [add your URL]</a></li>
-        </ul>
-      </div>
-    </section>
-
-  </main>
+  </div>
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; <span id="year"></span> Fato. Built with GitHub Pages.</p>
+      <p>&copy; <span id="year"></span> Fatima Sánchez. Built with GitHub Pages.</p>
     </div>
   </footer>
 
